@@ -1,0 +1,238 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_RaspberryPi_and_Boards:Pico U1
+U 1 1 61EC882D
+P 5800 3650
+F 0 "U1" H 5800 4865 50  0000 C CNN
+F 1 "Pico" H 5800 4774 50  0000 C CNN
+F 2 "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" V 5800 3650 50  0001 C CNN
+F 3 "" H 5800 3650 50  0001 C CNN
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J0
+U 1 1 61EC976D
+P 4250 2150
+F 0 "J0" H 4168 2367 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 2276 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 2150 50  0001 C CNN
+F 3 "~" H 4250 2150 50  0001 C CNN
+	1    4250 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 61ED70D9
+P 4250 2600
+F 0 "J1" H 4168 2817 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 2726 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 2600 50  0001 C CNN
+F 3 "~" H 4250 2600 50  0001 C CNN
+	1    4250 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 61ED76AD
+P 4250 3050
+F 0 "J2" H 4168 3267 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 3176 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 3050 50  0001 C CNN
+F 3 "~" H 4250 3050 50  0001 C CNN
+	1    4250 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 61ED7902
+P 4250 3500
+F 0 "J3" H 4168 3717 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 3626 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 3500 50  0001 C CNN
+F 3 "~" H 4250 3500 50  0001 C CNN
+	1    4250 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 61ED7EF9
+P 4250 3950
+F 0 "J4" H 4168 4167 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 4076 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 3950 50  0001 C CNN
+F 3 "~" H 4250 3950 50  0001 C CNN
+	1    4250 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 61ED83E2
+P 4250 4400
+F 0 "J5" H 4168 4617 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 4526 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 4400 50  0001 C CNN
+F 3 "~" H 4250 4400 50  0001 C CNN
+	1    4250 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 61ED8641
+P 4250 4850
+F 0 "J6" H 4168 5067 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 4976 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 4850 50  0001 C CNN
+F 3 "~" H 4250 4850 50  0001 C CNN
+	1    4250 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 61ED8A3F
+P 4250 5300
+F 0 "J7" H 4168 5517 50  0000 C CNN
+F 1 "Conn_01x02" H 4168 5426 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4250 5300 50  0001 C CNN
+F 3 "~" H 4250 5300 50  0001 C CNN
+	1    4250 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2150 5000 2150
+Wire Wire Line
+	5000 2150 5000 2600
+Wire Wire Line
+	4450 5300 5000 5300
+Wire Wire Line
+	5000 5300 5000 4850
+Wire Wire Line
+	5000 4400 5100 4400
+Wire Wire Line
+	4450 4850 5000 4850
+Connection ~ 5000 4850
+Wire Wire Line
+	5000 4850 5000 4400
+Wire Wire Line
+	4450 4400 5000 4400
+Connection ~ 5000 4400
+Wire Wire Line
+	4450 3500 5000 3500
+Wire Wire Line
+	4450 3050 5000 3050
+Connection ~ 5000 3050
+Wire Wire Line
+	5000 3050 5000 3400
+Wire Wire Line
+	4450 2600 5000 2600
+Connection ~ 5000 2600
+Wire Wire Line
+	5000 2600 5000 2900
+Wire Wire Line
+	4450 3950 5000 3950
+Wire Wire Line
+	5000 3950 5000 4400
+Wire Wire Line
+	5100 4600 4900 4600
+Wire Wire Line
+	4900 4600 4900 5400
+Wire Wire Line
+	4900 5400 4450 5400
+Wire Wire Line
+	5100 4500 4800 4500
+Wire Wire Line
+	4800 4500 4800 4950
+Wire Wire Line
+	4800 4950 4450 4950
+Wire Wire Line
+	5100 4300 4700 4300
+Wire Wire Line
+	4700 4300 4700 4500
+Wire Wire Line
+	4700 4500 4450 4500
+Wire Wire Line
+	5100 4200 4450 4200
+Wire Wire Line
+	4450 4200 4450 4050
+Wire Wire Line
+	5100 4100 4550 4100
+Wire Wire Line
+	4550 4100 4550 3600
+Wire Wire Line
+	4550 3600 4450 3600
+Wire Wire Line
+	5100 4000 4650 4000
+Wire Wire Line
+	4650 4000 4650 3150
+Wire Wire Line
+	4650 3150 4450 3150
+Wire Wire Line
+	5100 3800 4750 3800
+Wire Wire Line
+	4750 3800 4750 2700
+Wire Wire Line
+	4750 2700 4450 2700
+Wire Wire Line
+	5100 3700 4850 3700
+Wire Wire Line
+	4850 3700 4850 2250
+Wire Wire Line
+	4850 2250 4450 2250
+Wire Wire Line
+	5000 3500 5000 3900
+Connection ~ 5000 3500
+Connection ~ 5000 3950
+Wire Wire Line
+	5100 2900 5000 2900
+Connection ~ 5000 2900
+Wire Wire Line
+	5000 2900 5000 3050
+Wire Wire Line
+	5100 3400 5000 3400
+Connection ~ 5000 3400
+Wire Wire Line
+	5000 3400 5000 3500
+Wire Wire Line
+	5100 3900 5000 3900
+Connection ~ 5000 3900
+Wire Wire Line
+	5000 3900 5000 3950
+Wire Wire Line
+	6500 2900 6750 2900
+Wire Wire Line
+	6750 2900 6750 2150
+Wire Wire Line
+	6750 2150 5000 2150
+Connection ~ 5000 2150
+Wire Wire Line
+	6500 4400 6750 4400
+Wire Wire Line
+	6750 4400 6750 3900
+Wire Wire Line
+	6750 3900 6500 3900
+Wire Wire Line
+	6750 3900 6750 2900
+Connection ~ 6750 3900
+Connection ~ 6750 2900
+Wire Wire Line
+	5800 4800 5800 4950
+Wire Wire Line
+	5800 4950 6750 4950
+Wire Wire Line
+	6750 4950 6750 4400
+Connection ~ 6750 4400
+$EndSCHEMATC
