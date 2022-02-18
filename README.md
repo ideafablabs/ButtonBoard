@@ -6,4 +6,5 @@ breakout board for the Raspberry Pi Pico that allows connecting arcade buttons a
 ## ToDo:
 * add mouse jiggler support
 * add "macro" support
-* add "custom key mappings" without re-flashing firmware 
+* add "custom key mappings" without re-flashing firmware
+* add debounce sopport
